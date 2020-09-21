@@ -1,8 +1,8 @@
-# enhancing_the_makg
+**Enhancing the Microsoft Academic Knowledge Graph**
 Code for the Master Thesis "Enhancing the Microsoft Academic Knowledge Graph"
 
-<b>Entity Resolution</b>
-
+**Entity Resolution**  
+<br>
 Required Packages:
 [pyjarowinkler](https://pypi.org/project/pyjarowinkler/)
 
@@ -22,8 +22,8 @@ Edit the following data paths for MAG files:
 Files 15-19 are used for evaluation in the Thesis
 
 
-<b>Field of Study Classification</b>
-
+**Field of Study Classification**  
+<br>
 Required Packages:
 [NLTK](http://www.nltk.org/), [Pandas](https://pypi.org/project/pandas/), [scikit-learn](https://scikit-learn.org/stable/index.html), [simpletransformers](https://pypi.org/project/simpletransformers/)
 
