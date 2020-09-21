@@ -15,7 +15,7 @@ with open("04.author_id_with_merged_paper_id.txt", "r") as inp:
 
 line_count = 1
 
-#Add path to Authprs.txt
+#Add path to Authors.txt
 with open("00.Authors.txt", "r") as inp:
     with open("06.authors_with_paper_id.txt", "w") as outp:
         for line in inp:
