@@ -4,7 +4,7 @@ Code for the Master Thesis "Enhancing the Microsoft Academic Knowledge Graph"
 
 **Entity Resolution**  
 
-Required Packages:
+Required packages:
 [pyjarowinkler](https://pypi.org/project/pyjarowinkler/)
 
 Code for data preperation + disambiguation + recreating file (or use execute.sh)  
@@ -60,7 +60,7 @@ Files 15-19 are used for evaluation in the Thesis
 
 **Field of Study Classification**  
 
-Required Packages:
+Required packages:
 [NLTK](http://www.nltk.org/), [Pandas](https://pypi.org/project/pandas/), [scikit-learn](https://scikit-learn.org/stable/index.html), [simpletransformers](https://pypi.org/project/simpletransformers/)
 
 * files 00 and 01 are used to convert MAG paper abstracts from Inverted Indexes to Full Texts  
