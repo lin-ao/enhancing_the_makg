@@ -101,6 +101,8 @@ DGLBACKEND=pytorch dglke_train --model_name TransE_l2 --data_path 02.knowledge_g
 <br><br>
 
 **Statistical Analysis**  
+Required packages: 
+[Pandas](https://pypi.org/project/pandas/), [NumPy](https://numpy.org/), [seaborn](https://seaborn.pydata.org/), [matplotlib](https://matplotlib.org/), [chord](https://pypi.org/project/chord/)  
 
 Includes files used to generate graphs and data for statistical analysis  
 * file 00 is used to count entity properties, edit file paths for Authors.txt and Papers.txt  
@@ -110,4 +112,6 @@ Includes files used to generate graphs and data for statistical analysis
 * file 06 is used to generate data for table 24, edit file path for Papers.txt  
 * file 07 is used to generate data for figures 04 and 05, edit file path for Papers.txt  
 * file 08 is used to generate data for figure 03, uses file generate during entity resolution, edit file paths accordingly  
-
+* file 09 and 12 are used to generate data for and figure 15, file 09 uses data generate during entity resolution and field of study classification. File 09 generates a matrix which is loaded by 12 to generate the chord graph  
+* file 10 is used to generate data for figure 06, uses file generated during entity resolution, edit file path for Papers.txt  
+* file 11 is used to generate figure 14  
