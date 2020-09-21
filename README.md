@@ -8,7 +8,8 @@ Required Packages:
 
 
 
-All in one script: 00.execute.sh executes files 00-14 with required sorting in between
+
+Data preperation + disambiguation + recreating file format: 00.execute.sh executes files 00-14 with required sorting in between
 
 Edit the following data paths for MAG files:
 
