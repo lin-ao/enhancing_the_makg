@@ -10,13 +10,13 @@ print("Finished loading model...")
 
 def classify(inp, model):
     print(f"Loading input {inp}...")
-    with open(f"0.data/{inp}", "r") as f:
+    with open(f"{inp}", "r") as f:
         input_list = []
         for line in f:
             input_list.append(line.split(",")[0])
     print("Finished loading input.")
     print(f"Classification in progress for {inp}...")
-    with open(f"0.data/{inp}.txt", "w") as g:
+    with open(f"{inp}labeled.txt", "w") as g:
         predictions, raw_outputs = model.predict(input_list)
         for item in predictions:
             g.write(f"{item}\n")
