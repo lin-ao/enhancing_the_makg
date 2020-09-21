@@ -1,5 +1,6 @@
 **Enhancing the Microsoft Academic Knowledge Graph**  
 Code for the Master Thesis "Enhancing the Microsoft Academic Knowledge Graph"
+<br><br>
 
 **Entity Resolution**  
 
@@ -21,7 +22,7 @@ Edit the following data paths for MAG files:
 
 Files 15-19 are used for evaluation in the Thesis
 
-<br><br><br>
+<br><br>
 **Field of Study Classification**  
 
 Required Packages:
