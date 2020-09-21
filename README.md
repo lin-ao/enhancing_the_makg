@@ -115,3 +115,7 @@ Includes files used to generate graphs and data for statistical analysis
 * file 09 and 12 are used to generate data for and figure 15, file 09 uses data generate during entity resolution and field of study classification. File 09 generates a matrix which is loaded by 12 to generate the chord graph  
 * file 10 is used to generate data for figure 06, uses file generated during entity resolution, edit file path for Papers.txt  
 * file 11 is used to generate figure 14  
+<br><br>
+
+**Knowledge Graph Creation**  
+Includes files used to generate the MAKG and as well as the ontology file 
