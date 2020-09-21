@@ -7,6 +7,7 @@ Required Packages:
 [pyjarowinkler](https://pypi.org/project/pyjarowinkler/)
 
 
+
 All in one script: 00.execute.sh executes files 00-14 with required sorting in between
 
 Edit the following data paths for MAG files:
@@ -28,3 +29,5 @@ Edit the following data paths for MAG files:
 * 11.add_to_authors_journal_and_conference.py: path to Papers.txt
 
 * 14.recreate_files.py: path to PaperAuthorAffiliations.txt
+
+Files 15-19 are used for evaluation in the Thesis
