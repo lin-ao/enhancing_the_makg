@@ -4,8 +4,7 @@ Code for the Master Thesis "Enhancing the Microsoft Academic Knowledge Graph"
 <b>Entity Resolution</b>
 
 Required Packages:
-
-pyjarowinkler: https://pypi.org/project/pyjarowinkler/
+[pyjarowinkler](https://pypi.org/project/pyjarowinkler/)
 
 
 All in one script: 00.execute.sh executes files 00-14 with required sorting in between
