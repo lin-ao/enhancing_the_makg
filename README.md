@@ -92,8 +92,8 @@ rm -r sort
 Required packages: 
 [DGL-KE](https://aws-dglke.readthedocs.io/en/latest/install.html)  
 
-* use files 00 and 01 to generate input files for training author embeddings  
-* use files 02 and 03 to generate input files for training paper embeddings  
+* use files 00 and 01 to generate input files for training author embeddings, add file path to input graph Authors.nt  
+* use files 02 and 03 to generate input files for training paper embeddings, add file path to input graph Papers.nt, Journals.nt, and ConferenceSeries.nt  
 * execute 04 or the following console command for training embeddings, edit file paths, data sets, and hyperparameters accordingly  
 ````
 DGLBACKEND=pytorch dglke_train --model_name TransE_l2 --data_path 02.knowledge_graph_embeddings --dataset mag_author --data_files 01.author_entities.dict 01.author_relations.dict 01.author_train.tsv 01.author_valid.tsv 01.author_test.tsv --format udd_hrt --batch_size 1000 --neg_sample_size 1000 --hidden_dim 100 --gamma 19.9 --lr 0.25 --max_step 1000 --log_interval 100 --batch_size_eval 1000 --neg_sample_size_eval 1000 -adv --regularization_coef 1.00E-09 --gpu 0 1 2 3 4 5 6 7 --valid --test --mix_cpu_gpu
@@ -103,4 +103,11 @@ DGLBACKEND=pytorch dglke_train --model_name TransE_l2 --data_path 02.knowledge_g
 **Statistical Analysis**  
 
 Includes files used to generate graphs and data for statistical analysis  
-* 
+* file 00 is used to count entity properties, edit file paths for Authors.txt and Papers.txt  
+* file 01 is used to calculate the number of papers published per year, edit file path for Papers.txt  
+* file 02 is used to generate data for table 23, uses files created during entity resolution, edit file paths accordingly  
+* file 04 and 05 to calculate data for figures 08, 09, 10, 11, 12 and 13, create a folder named 04.field_of_study_over_time beforehand, use file 04 to split data by individual field of study, use file 05 to generate time data for each field of study  
+* file 06 is used to generate data for table 24, edit file path for Papers.txt  
+* file 07 is used to generate data for figures 04 and 05, edit file path for Papers.txt  
+* file 08 is used to generate data for figure 03, uses file generate during entity resolution, edit file paths accordingly  
+
