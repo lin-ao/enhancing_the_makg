@@ -19,3 +19,13 @@ Edit the following data paths for MAG files:
 02.extract_author_with_paper_id.py: path to PaperAuthorAffiliations.txt
 
 03.extract_paper_with_author_id.py: path to PaperAuthorAffiliations.txt
+
+06.add_to_authors_paper_id.py: path to Authors.txt
+
+09.add_to_authors_titles.py: path to Papers.txt
+
+10.add_to_authors_year.py: path to Papers.txt
+
+11.add_to_authors_journal_and_conference.py: path to Papers.txt
+
+14.recreate_files.py: path to PaperAuthorAffiliations.txt
