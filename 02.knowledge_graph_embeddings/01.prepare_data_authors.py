@@ -11,7 +11,7 @@ with open("00.authors_input.txt", "r") as f:
         if len(line.split(" ")) > 1:
             sub = line.split(" ")[0].rstrip(">").replace("<http://ma-graph.org/", "")
             pred = line.split(" ")[1].rstrip(">").split("/")[-1].replace("22-rdf-syntax-ns#", "").replace("org#", "")
-            obj = " ".join(line.split(" ")[2:]).strip().rstrip(".").strip().replace("^^<http://www.w3.org/2001/XMLSchema#date>", "").replace("^^<http://www.w3.org/2001/XMLSchema#integer>", "").replace("^^<http://www.w3.org/2001/XMLSchema#string>", "").rstrip(">").replace("<http://ma-graph.org/", "").strip('"', '')
+            obj = " ".join(line.split(" ")[2:]).strip().rstrip(".").strip().replace("^^<http://www.w3.org/2001/XMLSchema#date>", "").replace("^^<http://www.w3.org/2001/XMLSchema#integer>", "").replace("^^<http://www.w3.org/2001/XMLSchema#string>", "").rstrip(">").replace("<http://ma-graph.org/", "").replace('"', '')
             if not sub in entity_dict:
                 entity_dict[sub] = entity_count
                 entity_count += 1
