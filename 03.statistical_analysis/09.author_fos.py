@@ -1,6 +1,6 @@
 import itertools
 
-with open("02.knowledge_graph_embeddings/01.tokenized_abstracts_labeled.txt", "r") as f:
+with open("01.field_of_study_classification/10.paperid_with_fos.txt", "r") as f:
     line_count = 1
     fos_dict = {}
     for line in f:
