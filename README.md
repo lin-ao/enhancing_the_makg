@@ -97,7 +97,7 @@ Required packages:
 * use files 02 and 03 to generate input files for training paper embeddings, add file path to input graph Papers.nt, Journals.nt, and ConferenceSeries.nt  
 * execute 04 or the following console command for training embeddings, edit file paths, data sets, and hyperparameters accordingly  
 ````
-DGLBACKEND=pytorch dglke_train --model_name TransE_l2 --data_path 02.knowledge_graph_embeddings --dataset mag_author --data_files 01.author_entities.dict 01.author_relations.dict 01.author_train.tsv 01.author_valid.tsv 01.author_test.tsv --format udd_hrt --batch_size 1000 --neg_sample_size 1000 --hidden_dim 100 --gamma 19.9 --lr 0.25 --max_step 1000 --log_interval 100 --batch_size_eval 1000 --neg_sample_size_eval 1000 -adv --regularization_coef 1.00E-09 --gpu 0 1 2 3 4 5 6 7 --valid --test --mix_cpu_gpu
+DGLBACKEND=pytorch dglke_train --model_name TransE_l2 --data_path 02.knowledge_graph_embeddings --dataset mag_author --data_files 01.author_entities.dict 01.author_relations.dict 01.author_train.tsv 01.author_valid.tsv 01.author_test.tsv --format udd_hrt --batch_size 1000 --neg_sample_size 1000 --hidden_dim 100 --gamma 19.9 --lr 0.25 --max_step 1000000 --log_interval 100 --batch_size_eval 1000 --neg_sample_size_eval 1000 -adv --regularization_coef 1.00E-09 --gpu 0 1 2 3 4 5 6 7 --valid --test --mix_cpu_gpu
 ````
 <br><br>
 
