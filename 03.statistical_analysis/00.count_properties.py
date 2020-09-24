@@ -8,7 +8,7 @@ def count_occurence(list_of_objects):
     return occurence_dictionary
 
 papers_properties = ["PaperId", "Rank", "Doi", "DocType", "PaperTitle", "OriginalTitle", "BookTitle", "Year", "Date", "OnlineDate", "Publisher", "JournalId", "ConferenceSeriesId", "ConferenceInstanceId", "Volume", "Issue", "FirstPage", "LastPage", "ReferenceCount", "CitationCount", "EstimatedCitation", "OriginalVenue", "FamilyId", "CreatedDate"]
-authors_properties = ["AuthorId", "Rank", "NormalizedName", "DisplayName", "LastKnownAffiliationId", "PaperCount", "paperFamilyCount", "CitationCount", "CreateDate"]
+authors_properties = ["AuthorId", "Rank", "NormalizedName", "DisplayName", "LastKnownAffiliationId", "PaperCount", "PaperFamilyCount", "CitationCount", "CreateDate"]
 
 papers_properties_dict = {}
 authors_properties_dict = {}
