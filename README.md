@@ -85,7 +85,8 @@ rm -r sort
 * use file 07 to generate training and evalution sets  
 * use file 08 to train and evaluate the classifier, edit the model as well as hyperparameters accordingly  
 * use file 09 to classify MAG papers  
-* use file 10 to extract keywords
+* use file 10 to match extracted labels with MAG papers  
+* use file 11 to extract keywords  
 <br><br>
 
 **Knowledge Graph Embeddings**  
