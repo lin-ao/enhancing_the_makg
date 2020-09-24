@@ -23,7 +23,7 @@ with open("12.authors_with_references_sorted.txt", "r") as inp:
             print("Searching: " + str(line_count))
 
             name = line.split("\t")[3].strip()
-            dois = line.split("\t")[9].strip().split(";")
+            dois = line.split("\t")[10].strip().split(";")
             orcids = set()
             for doi in dois:
                 try:
