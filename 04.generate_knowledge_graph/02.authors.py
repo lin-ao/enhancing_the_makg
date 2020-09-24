@@ -1,4 +1,4 @@
-with open("/pfs/work7/workspace/scratch/utdkf-ws_lin-0/0.data/0.mag_20200619/mag/Authors.txt", "r") as f:
+with open("Authors.txt", "r") as f:
     with open("02.Authors.nt", "w") as g:
         for line in f:
             AuthorId, Rank, NormalizedName, DisplayName, LastKnownAffiliationId, PaperCount, PaperFamilyCount, CitationCount, CreateDate = line.strip("\n").split("\t")

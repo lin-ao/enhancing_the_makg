@@ -1,4 +1,4 @@
-with open("/pfs/work7/workspace/scratch/utdkf-ws_lin-0/0.data/0.mag_20200619/mag/PaperResources.txt", "r") as f:
+with open("PaperResources.txt", "r") as f:
     with open("09.PaperResources.nt", "w") as g:
         for line in f:
             PaperId, ResourceType, ResourceUrl, SourceUrl, RelationshipType = line.strip("\n").split("\t")

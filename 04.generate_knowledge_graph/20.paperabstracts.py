@@ -1,4 +1,4 @@
-with open("/pfs/work7/workspace/scratch/utdkf-ws_lin-0/3.field_of_study/0.data/01.paper_abstracts.txt", "r") as f:
+with open("01.field_of_study_classification/00.paper_abstracts.txt", "r") as f:
     with open("20.PaperAbstracts.nt", "w") as g:
         for line in f:
             PaperId, PaperAbstract = line.strip("\n").split("\t")

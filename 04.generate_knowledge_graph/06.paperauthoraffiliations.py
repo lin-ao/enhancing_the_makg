@@ -1,4 +1,4 @@
-with open("/pfs/work7/workspace/scratch/utdkf-ws_lin-0/0.data/0.mag_20200619/mag/PaperAuthorAffiliations.txt", "r") as f:
+with open("PaperAuthorAffiliations.txt", "r") as f:
     with open("06.PaperAuthorAffiliations.nt", "w") as g:
         for line in f:
             PaperId = line.split("\t")[0]

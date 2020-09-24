@@ -1,4 +1,4 @@
-with open("/pfs/work7/workspace/scratch/utdkf-ws_lin-0/0.data/0.mag_20200619/nlp/PaperCitationContexts.txt", "r") as f:
+with open("PaperCitationContexts.txt", "r") as f:
     with open("19.PaperCitationContexts.nt", "w") as g:
         for line in f:
             PaperId, PaperReferenceId, CitationContext = line.strip("\n").split("\t")

@@ -1,4 +1,4 @@
-with open("/pfs/work7/workspace/scratch/utdkf-ws_lin-0/3.field_of_study/4.keyword_extraction/keywords_extraction/paper_keywords.txt", "r") as f:
+with open("01.field_of_study_classification/11.paper_keywords.txt", "r") as f:
     with open("21.PaperTags.nt", "w") as g:
         for line in f:
             PaperId = line.split("\t")[0]

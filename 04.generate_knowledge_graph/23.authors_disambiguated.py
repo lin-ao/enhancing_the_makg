@@ -1,5 +1,5 @@
-with open("/pfs/work7/workspace/scratch/utdkf-ws_lin-0/mag/14.Authors_new.txt", "r") as f:
-    with open("02.Authors.nt", "w") as g:
+with open("00.entity_resolution/14.Authors_new.txt", "r") as f:
+    with open("23.Authors_disambiguated.nt", "w") as g:
         for line in f:
             AuthorId, Rank, NormalizedName, DisplayName, LastKnownAffiliationId, PaperCount, PaperFamilyCount, CitationCount, CreateDate = line.strip("\n").split("\t")
             g.write(f'<http://ma-graph.org/entity/{AuthorId}> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ma-graph.org/class/Author> .\n')

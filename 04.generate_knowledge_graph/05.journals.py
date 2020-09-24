@@ -1,4 +1,4 @@
-with open("/pfs/work7/workspace/scratch/utdkf-ws_lin-0/0.data/0.mag_20200619/mag/Journals.txt", "r") as f:
+with open("Journals.txt", "r") as f:
     with open("05.Journals.nt", "w") as g:
         for line in f:
             JournalId, Rank, NormalizedName, DisplayName, Issn, Publisher, Webpage, PaperCount, PaperFamilyCount, CitationCount, CreatedDate = line.strip("\n").split("\t")

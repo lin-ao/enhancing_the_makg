@@ -1,4 +1,4 @@
-with open("/pfs/work7/workspace/scratch/utdkf-ws_lin-0/0.data/0.mag_20200619/advanced/FieldOfStudyExtendedAttributes.txt", "r") as f:
+with open("FieldOfStudyExtendedAttributes.txt", "r") as f:
     with open("14.FieldOfStudyExtendedAttributes.nt", "w") as g:
         for line in f:
             FieldOfStudyId, AttributeType, AttributeValue = line.strip("\n").split("\t")

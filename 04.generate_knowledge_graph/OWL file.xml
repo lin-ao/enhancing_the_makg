@@ -210,6 +210,11 @@
 <rdfs:domain rdf:resource="http://ma-graph.org/class/Author"/>
 <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
 </owl:DatatypeProperty>
+<!-- http://ma-graph.org/property/hasORCID -->
+<owl:DatatypeProperty rdf:about="http://ma-graph.org/property/hasORCID">
+<rdfs:domain rdf:resource="http://ma-graph.org/class/Author"/>
+<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
 <!-- http://purl.org/dc/terms/created -->
 <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/created">
 <rdfs:domain rdf:resource="http://ma-graph.org/class/Author"/>

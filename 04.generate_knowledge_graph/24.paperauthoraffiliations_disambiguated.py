@@ -1,5 +1,5 @@
-with open("/pfs/work7/workspace/scratch/utdkf-ws_lin-0/mag/14.PaperAuthorAffiliations_new.txt", "r") as f:
-    with open("06.PaperAuthorAffiliations.nt", "w") as g:
+with open("00.entity_resolution/14.PaperAuthorAffiliations_new.txt", "r") as f:
+    with open("24.PaperAuthorAffiliations_disambiguated.nt", "w") as g:
         for line in f:
             PaperId = line.split("\t")[0]
             AuthorId = line.split("\t")[1]
