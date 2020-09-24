@@ -121,3 +121,8 @@ Includes files used to generate graphs and data for statistical analysis
 
 **Knowledge Graph Creation**  
 Includes files used to generate the MAKG and as well as the ontology file 
+* file 00-20 creates RDF representations of existing MAG files, edit file paths accordingly  
+* file 21 uses our extract keywords for each paper, edit file path accordingly  
+* file 22 uses our field of study labels for papers, edit file path accordingly  
+* file 23 and 24 use our disambiguated author and paperauthoraffiliation files, edit file paths accordingly  
+* file 25 links MAG authors (undisambiguated, though disambituated authors input can be created using our provided files) to their ORCIDs, requires ORCID file generated during entity resolution, edit file path accordingly
