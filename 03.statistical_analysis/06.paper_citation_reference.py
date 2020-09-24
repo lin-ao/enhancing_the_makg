@@ -27,6 +27,9 @@ with open("06.paper_references_citations_general.txt", "w") as f:
     f.write(f"Paper with citations: {len(paper_citations_filtered)}\n")
     f.write(f"Average number of citations per paper filtered: {statistics.mean(paper_citations_filtered)}\n")
 
+paper_references = {}
+paper_citations = {}
+#Add file path for Papers.txt
 with open("Papers.txt", "r") as f:
     for line in f:
         papertype = line.split("\t")[3].lower()
