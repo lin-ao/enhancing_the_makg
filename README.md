@@ -109,14 +109,15 @@ Required packages:
 Includes files used to generate graphs and data for statistical analysis  
 * file 00 is used to count entity properties, edit file paths for Authors.txt and Papers.txt  
 * file 01 is used to calculate the number of papers published per year, edit file path for Papers.txt  
-* file 02 is used to generate data for table 23, uses files created during entity resolution, edit file paths accordingly  
+* file 02 is used to generate data for table 25, uses files created during entity resolution, edit file paths accordingly  
 * file 04 and 05 to calculate data for figures 08, 09, 10, 11, 12 and 13, create a folder named 04.field_of_study_over_time beforehand, use file 04 to split data by individual field of study, use file 05 to generate time data for each field of study  
-* file 06 is used to generate data for table 24, edit file path for Papers.txt  
+* file 06 is used to generate data for table 27, edit file path for Papers.txt  
 * file 07 is used to generate data for figures 04 and 05, edit file path for Papers.txt  
 * file 08 is used to generate data for figure 03, uses file generate during entity resolution, edit file paths accordingly  
 * file 09 and 12 are used to generate data for and figure 15, file 09 uses data generate during entity resolution and field of study classification. File 09 generates a matrix which is loaded by 12 to generate the chord graph  
 * file 10 is used to generate data for figure 06, uses file generated during entity resolution, edit file path for Papers.txt  
 * file 11 is used to generate figure 14  
+* file 13 is used to generate data for table 26
 <br><br>
 
 **Knowledge Graph Creation**  
